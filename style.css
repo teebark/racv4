@@ -1,0 +1,63 @@
+/*
+Theme Name: Xtreme Child
+Theme URI: http://raclub.org/v4/wp-content/themes/xtreme-child
+Description: RAC site
+Author: Terry Barker
+Author URI: http://teebark.com
+Template: weaver-xtreme
+Version: 1.0.0
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: xtreme-child
+*/
+/* Header border */
+#branding img {border-top: 4px solid #000;border-bottom 1px solid #000; border-top: 0; clear: both;display: block;}
+/* Image of the month text align */
+#blog-top-widget-area .widget {width: 600px;}
+#blog-top-widget-area img.alignleft {float: left;}
+/* Right sidebar */
+#primary-widget-area .widget-1 {background: #478768; padding: 20px 20px 20px 20px; width: 200px;}
+#primary-widget-area .widget-1 h1 {font-size: 3em; color: white; line-height: 50%; font-weight: lighter;}
+#primary-widget-area .widget-1 h2 {font-size: 1.5em; color: white; margin-bottom: 10px; font-weight: lighter;}
+#primary-widget-area .widget-1 h3 {font-size: 1.5em; color: white; font-weight: lighter;}
+#primary-widget-area .widget-1 h4 {font-size: 3em; color: white; font-weight: lighter;}
+#primary-widget-area .widget-1 h5 {font-size: 2em; color: white; background: #91b7b8; border: 1px solid white; padding: 5px 5px 5px 5px; margin-top: 10px;}
+#primary-widget-area .widget-1 h5 a {color: white; text-decoration: none; font-weight: lighter;}
+#primary-widget-area .widget-1 div.widget-top {display: none;}
+#primary-widget-area .widget-1 div.divider {height: 1px; border-top: 1px solid white; margin: 5px 0 5px 0;}
+#primary-widget-area .widget-1 img.alignright {border: 0; margin: -8px 20px 0 0;}
+#primary-widget-area .widget-1 {margin-bottom: 15px}
+#primary-widget-area .widget-2 {background: #dfcbab; padding: 20px 20px 20px 20px; width: 200px;}
+h1 {  font-size: 3em; color: black; line-height: 50%; font-weight: lighter;}
+h2 {  font-size: 1.5em; color: black; margin-bottom: 10px; font-weight: lighter;}
+h3 {  font-size: 1.5em; color: black; font-weight: lighter;}
+h4 {  font-size: 3em; color: black; margin-top: 5px; font-weight: lighter;}
+h5 {  font-size: 2em; color: black; background: #ecdfce; padding: 5px 5px 5px 5px; margin-top: 10px; font-weight: lighter;}
+h5 a {color: black; text-decoration: none;}
+div.widget-top {display: none;}
+div.divider {height: 1px; border-top: 1px solid black; margin: 5px 0 5px 0;}
+img.alignright {border: 0; margin: -8px 20px 0 0;}
+/* Left sidebar */
+#secondary-widget-area .widget p {font-family: Arial, Verdana; font-style: normal; line-height: 1; font-size: 1.2em; color: black; margin: 5px 0 5px 10px; width: 150px;}
+/* Navigation bar */
+#nav-primary.menu-primary .wvrx-menu-container {background-color: #000000; border-bottom: #981b24 solid 5px;}
+#nav-primary.menu-primary .wvrx-menu-container li a {color: #ffffff;}
+nav#access {border-bottom: #981b24 solid 5px;}
+/* Content */
+#content article.type-post {padding: 0 0 0 0; margin: 0 0 0 0;}
+#content article.type-page p {margin-bottom: 1.2em;}
+#content article.type-post,
+#content article.type-post header, 
+#content article.type-post div,
+#content article.type-post h2,
+#content article.type-post .entry-summary p {display: inline; padding: 0 0 0 0; margin: 0 0 0 0;;}
+#content article.type-post div.entry-meta {display: none;}
+#content article.type-post h2 {padding-right: 0;}
+#content article.type-post h2 a {color: blue; font-size: 75%;}
+#content footer .leave-reply {display: none;}
+div#content.cf {border-top: #981b24 solid 3px; margin: 0 80px 0 80px; margin: 0 40px 0 40px;padding-top: 0;}
+div#content.cf:before {content: "NEWS"; color: white; background: #981b24; font-size: 1.2em; width: 60px; text-indent: 5px;}
+/* Header widget (Don't miss) */
+#header-widget-area h3 {background-color: #981b24; color: white; display: inline;}
+#header-widget-area p {background-color: black; color: white; display: inline;}
+#header-widget-area {background-color: black; border-bottom: #981b24 solid 5px;}
+.centerNSky{margin-left:auto; margin-right:auto; }
